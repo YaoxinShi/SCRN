@@ -50,3 +50,13 @@ year = {2019}
 
 # Contact Us
 If you have any question, please contact us (zhe.wu@vipl.ict.ac.cn).
+
+========
+
+* Python
+
+* Pre-trained model
+Download the pre-trained model from [google drive](https://drive.google.com/open?id=1PkGX9R-uTYpWBKX0lZRkE2qvvpz1-IiG) or [baidu yun](https://pan.baidu.com/s/1Gm-YptzsVnHU0a6YkdjQaQ) (code: ilhx), and put it in './model/'.
+
+* Command
+python test_SCRN.py

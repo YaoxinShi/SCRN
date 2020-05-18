@@ -9,8 +9,8 @@ fx = np.array([[-1, 0, 1], [-2, 0, 2], [-1, 0, 1]]).astype(np.float32)
 fy = np.array([[-1, -2, -1], [0, 0, 0], [1, 2, 1]]).astype(np.float32)
 fx = np.reshape(fx, (1, 1, 3, 3))
 fy = np.reshape(fy, (1, 1, 3, 3))
-fx = Variable(torch.from_numpy(fx)).cuda()
-fy = Variable(torch.from_numpy(fy)).cuda()
+#fx = Variable(torch.from_numpy(fx)).cuda()
+#fy = Variable(torch.from_numpy(fy)).cuda()
 contour_th = 1.5
 
 
